@@ -1,6 +1,6 @@
 package contract
 
-import "comics/type/json/common"
+import "github.com/nanikjava/comicstype/json/common"
 
 type InformationCaller[T any, V any] interface {
 	GetData(apiUrl string) error
