@@ -3,9 +3,12 @@ package client
 import (
 	"fmt"
 	"github.com/imroc/req/v3"
-	"github.com/nanikjava/comicstype/json/common"
 	"log"
 	"time"
+)
+
+const (
+	COMICVIEW_BASEURL = "https://comicvine.gamespot.com/api/"
 )
 
 type HttpClient struct {
@@ -25,7 +28,7 @@ func (h *HttpClient) Call(queryMap map[string]string, resultType interface{}, ur
 		SetQueryParams(queryMap).
 		SetSuccessResult(resultType).
 		EnableDump().
-		Get(fmt.Sprintf("%s%s", common.COMICVIEW_BASEURL, urlPath))
+		Get(fmt.Sprintf("%s%s", COMICVIEW_BASEURL, urlPath))
 
 	if err != nil {
 		log.Printf("err: ", err)

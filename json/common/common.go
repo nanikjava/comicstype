@@ -9,7 +9,3 @@ type CommonStruct struct {
 	Limit  int
 	*client.HttpClient
 }
-
-const (
-	COMICVIEW_BASEURL = "https://comicvine.gamespot.com/api/"
-)
