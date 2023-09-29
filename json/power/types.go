@@ -1,6 +1,6 @@
 package power
 
-import "comics/type/json/common"
+import "github.com/nanikjava/comicstype/json/common"
 
 const Power common.DataType = "Power"
 

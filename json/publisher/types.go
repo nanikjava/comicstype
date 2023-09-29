@@ -1,6 +1,6 @@
 package publisher
 
-import "comics/type/json/common"
+import "github.com/nanikjava/comicstype/json/common"
 
 const Publisher common.DataType = "Publisher"
 

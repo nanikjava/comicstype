@@ -1,6 +1,6 @@
 package movies
 
-import "comics/type/json/common"
+import "github.com/nanikjava/comicstype/json/common"
 
 const Movies common.DataType = "Movies"
 

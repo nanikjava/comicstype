@@ -1,4 +1,4 @@
-module comics/type
+module github.com/nanikjava/comicstype
 
 go 1.20
 

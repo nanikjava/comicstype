@@ -1,6 +1,6 @@
 package object
 
-import "comics/type/json/common"
+import "github.com/nanikjava/comicstype/json/common"
 
 const Object common.DataType = "Object"
 

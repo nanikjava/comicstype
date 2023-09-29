@@ -1,6 +1,6 @@
 package characters
 
-import "comics/type/json/common"
+import "github.com/nanikjava/comicstype/json/common"
 
 const Characters common.DataType = "Characters"
 
