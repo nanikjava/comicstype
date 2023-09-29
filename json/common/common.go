@@ -1,13 +1,13 @@
 package common
 
-import "github.com/imroc/req/v3"
+import client "github.com/nanikjava/comicstype/http"
 
 type DataType string
 
 type CommonStruct struct {
 	Offset int
 	Limit  int
-	Client *req.Client
+	*client.HttpClient
 }
 
 const (
